@@ -1,0 +1,16 @@
+What is time complexity ?
+	1) Time complexity is not equal to the time taken by the code to run.
+	2) It is the rate at the which the time taken increases with respect to the input size.\
+	3) We denote the time taken in the big o notations, or omega notations or theta notations.
+	
+	for(int i = 0 ; i<n;i++){
+		for(int j = 0; j<=n; j++){
+			sysout("Hey")
+		}
+	}
+	
+what is space complexity?
+
+	1) Space complexity is the combination of auxiliary space and input space.
+	2) Auxiliary space is the space which we use to solve the problem.
+	3) Input space is the space which we use to store the input.

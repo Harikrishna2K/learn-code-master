@@ -1,0 +1,19 @@
+In multiple inheritance with classes, each parent class can have methods with their own implementation (method bodies). 
+When a child class tries to inherit from two parent classes that have the same method (with different implementations), 
+it creates confusion: which method implementation should the child class inherit?
+
+This is called the Diamond Problem, and Java avoids it by not allowing multiple inheritance with classes.
+
+To handle this, Java provides interfaces. In an interface: 
+Only the method signature is declared (no implementation is provided).
+
+When a class implements multiple interfaces, it must provide its own implementation of the methods. 
+This way, there's no confusion because the class implementing the interfaces defines how the method behaves.
+
+Key points:
+Classes have complete methods (with implementation), leading to conflicts in multiple inheritance.
+Interfaces only declare methods (without implementation), so the implementing class provides the method's behavior, avoiding the Diamond Problem.
+
+Conclusion:
+Yes, your understanding is correct! Interfaces solve the Diamond Problem because they only declare method signatures, leaving the implementing class to define how the methods work, thus eliminating the ambiguity found in multiple inheritance with classes.
+
